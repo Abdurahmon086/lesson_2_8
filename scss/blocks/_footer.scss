@@ -1,0 +1,50 @@
+footer {
+    background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+
+    .footer {
+
+        &__top {
+            padding: 81px 0 59px 0;
+
+        }
+
+        &__title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+        }
+
+        &__link {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 140.5%;
+            color: #E6E6E6;
+            opacity: 0.8;
+        }
+
+        &__bottom {
+            padding: 36px 0 51px 0;
+            border-top: 1px solid #BCBCBC;
+            ;
+
+        }
+
+        &__text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #BCBCBC;
+        }
+
+    }
+
+
+}

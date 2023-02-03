@@ -5,12 +5,396 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <div
+            class="head  container-lg d-flex justify-content-between align-items-center position-fixed top-0 start-0 end-0 m-auto pt-4 z-3">
+            <a href="#">
+                <img src="./images/logo.png" alt="Cryptous Logo">
+            </a>
 
+            <nav>
+                <ul class=" nav__list d-lg-flex gap-4 d-sm-none d-none ">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">Company</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">Team</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link text-white fs-5">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="head__btn d-md-block d-sm-none d-none">Trade Now</button>
+
+            <div class="menu d-lg-none d-md-none text-white fs-3 d-block">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="h">
+            <div class="hero container-lg d-flex justify-content-between align-items-start">
+                <div class="hero__left d-xl-block d-lg-block d-md-flex flex-md-column  flex-sm-column align-items-md-center align-items-sm-center" >
+                    <h1 class="hero__title text-white  ">Make better businees with Cryptocurrency </h1>
+                    <p class="hero__text mt-2">We offers users a fully operational long-term rental platform. It plans
+                        to
+                        leverages blockchain technology.</p>
+                    <button class="hero__btn mt-4">Get Whitelisted</button>
+                </div>
+
+                <div class="hero__right d-lg-block  d-md-block d-none">
+                    <img src="./images/bg-coin.png" alt="">
+                </div>
+            </div>
+
+            <div class="scrol__btn scrol position-absolute start-0 end-0 mx-auto">
+                <span class="scrol__span"></span>
+            </div>
+        </section>
+        <section>
+            <div class="caticory container-lg mt-5">
+                <h1 class="caticory__title text-center  ">Today's Cryptocurrency Prices</h1>
+                <table class="table mt-5 text-white">
+                    <thead>
+                        <tr>
+                            <th scope="col row">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">price</th>
+                            <th scope="col">24h %</th>
+                            <th scope="col">7d %</th>
+                            <th scope="col">market cap</th>
+                            <th scope="col">volume(24h)</th>
+                            <th scope="col">last 7 days</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td class="t-name  d-flex align-items-center gap-2"><img src="./images/btc.svg" alt="">
+                                Bitcoin <span>BTC</span></td class="">
+                            <td class="">$55,206.61</td class="">
+                            <td class="">0.92%</td class="">
+                            <td class="">15.86%</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="d-flex align-item-center gap-2"><img src="./images/trade.png" alt=""> <img
+                                    src="./images/list.svg"> </td class="">
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td class="t-name d-flex align-items-center gap-2"><img src="./images/btc.svg" alt="">
+                                Ethereum <span>ETH</span></td class="">
+                            <td class="">$55,206.61</td class="">
+                            <td class="">0.92%</td class="">
+                            <td class="">15.86%</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="d-flex align-item-center gap-2"><img src="./images/trade.png" alt=""> <img
+                                    src="./images/list.svg"> </td class="">
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td class="t-name  d-flex align-items-center gap-2"><img src="./images/btc.svg" alt="">
+                                Cardano <span>ADA</span></td class="" class="">
+                            <td class="">$55,206.61</td class="">
+                            <td class="">0.92%</td class="">
+                            <td class="">15.86%</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="d-flex align-item-center gap-2"><img src="./images/trade.png" alt=""> <img
+                                    src="./images/list.svg"> </td class="">
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td class="t-name  d-flex align-items-center gap-2"><img src="./images/btc.svg" alt="">
+                                Bitcoin <span>USDT</span></td class="">
+                            <td class="">$55,206.61</td class="">
+                            <td class="">0.92%</td class="">
+                            <td class="">15.86%</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="d-flex align-item-center gap-2"><img src="./images/trade.png" alt=""> <img
+                                    src="./images/list.svg"> </td class="">
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td class="t-name  d-flex align-items-center gap-2"><img src="./images/btc.svg" alt="">
+                                Avalanche <span>AVAX</span></td class="">
+                            <td class="">$55,206.61</td class="">
+                            <td class="">0.92%</td class="">
+                            <td class="">15.86%</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="d-flex align-item-center gap-2"><img src="./images/trade.png" alt=""> <img
+                                    src="./images/list.svg"> </td class="">
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td class="t-name  d-flex align-items-center gap-2"><img src="./images/btc.svg" alt="">
+                                Algorand <span>ALGO</span></td class="">
+                            <td class="">$55,206.61</td class="">
+                            <td class="">0.92%</td class="">
+                            <td class="">15.86%</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="">$1,046,899,935,348</td class="">
+                            <td class="d-flex align-item-center gap-2"><img src="./images/trade.png" alt=""> <img
+                                    src="./images/list.svg"> </td class="">
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="bg-white">
+
+            <div class="platform container-lg">
+                <h2 class="platform__title text-center">
+                    The most trusted cryptocurrency platform
+                </h2>
+
+                <div class="platform__wrapper mt-5 d-flex justify-content-between">
+                    <div class="platform__card card ">
+                        <img src="./images/most1.png" alt="" width="65" class="most-img">
+                        <h4 class="card__title">Ease of Trading</h4>
+                        <p class="card__text">Intuitive interface</p>
+                        <p class="card__text">Instant deposit options</p>
+                        <p class="card__text">Cash out directly to your bank account</p>
+                    </div>
+                    <div class="platform__card card ">
+                        <img src="./images/most2.png" alt="" width="62" class="most-img">
+                        <h4 class="card__title">Institutional-grade Security</h4>
+                        <p class="card__text">98% of assets stored safely offline</p>
+                        <p class="card__text">Highly encrypted personal data</p>
+                        <p class="card__text">Whitelisting and transaction confirmations</p>
+                    </div>
+                    <div class="platform__card card ">
+                        <img src="./images/most3.png" alt="" class="most-img">
+                        <h4 class="card__title">Proven Reliability</h4>
+                        <p class="card__text">Exchanging bitcoin since 2011</p>
+                        <p class="card__text">Industry-leading uptime</p>
+                        <p class="card__text">24/7 dedicated support</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class="try container-lg d-flex justify-content-between align-items-center">
+                <div class="try__left">
+                    <h3 class="try__title">Try the future, today.
+                        Download Crypto</h3>
+                    <p class="try__text mt-2">Stay connected to the market with our mobile app. Featuring advanced order
+                        types and analytical tools for experienced traders, as well as a simple buy & sell interface for
+                        those just getting started.</p>
+
+                    <div class="try__downloads d-flex gap-3 align-items-center mt-5">
+                        <img src="./images/appstore.png" alt="appstore">
+                        <img src="./images/play.png" alt="google-play">
+                    </div>
+                </div>
+                <div class="try__right">
+                    <img src="./images/appdownload.png" alt="appdownload">
+                </div>
+            </div>
+        </section>
+
+        <section class="l">
+            <div class="learn container-lg ">
+                <h2 class="learn__title text-center mb-5">Learn to thrive</h2>
+                <div class="learn__wrapper d-flex justify-content-between gap-2">
+                    <div class="learn__card card shadow">
+                        <img src="./images/learn-1.png" width="368" alt="">
+                        <div class="card__bottom">
+                            <h4 class="card__title">New Leveraged Pairs Added to Margin Trading on the Crypto.com
+                                Exchange</h4>
+                            <p class="card__text mt-3">We urge everyone adopt good cybersecurity habits, and to have
+                                unique
+                                passwords on every site they use...</p>
+
+                            <div class="card__inner d-flex align-item-center justify-content-between mt-5">
+                                <p class="card__lost-text">By: Jennia Peris</p>
+                                <div class="card-lost">
+                                    <img src="" alt="">
+                                    <p class="card__lost-text">15/07/2021</p>
+                                </div>
+                                <div class="card-lost">
+                                    <img src="" alt="">
+                                    <p class="card__lost-text">5 Min to read</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learn__card card shadow">
+                        <img src="./images/learn-2.png" width="368" alt="">
+                        <div class="card__bottom">
+                            <h4 class="card__title">New Leveraged Pairs Added to Margin Trading on the Crypto.com
+                                Exchange</h4>
+                            <p class="card__text mt-3">We urge everyone adopt good cybersecurity habits, and to have
+                                unique
+                                passwords on every site they use...</p>
+
+                            <div class="card__inner d-flex align-item-center justify-content-between mt-5">
+                                <p class="card__lost-text">By: Jennia Peris</p>
+                                <div class="card-lost">
+                                    <img src="" alt="">
+                                    <p class="card__lost-text">15/07/2021</p>
+                                </div>
+                                <div class="card-lost">
+                                    <img src="" alt="">
+                                    <p class="card__lost-text">5 Min to read</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learn__card card shadow">
+                        <img src="./images/learn-3.png" width="368" alt="">
+                        <div class="card__bottom">
+                            <h4 class="card__title">New Leveraged Pairs Added to Margin Trading on the Crypto.com
+                                Exchange</h4>
+                            <p class="card__text mt-3">We urge everyone adopt good cybersecurity habits, and to have
+                                unique
+                                passwords on every site they use...</p>
+
+                            <div class="card__inner d-flex align-item-center justify-content-between mt-5">
+                                <p class="card__lost-text">By: Jennia Peris</p>
+                                <div class="card-lost">
+                                    <img src="" alt="">
+                                    <p class="card__lost-text">15/07/2021</p>
+                                </div>
+                                <div class="card-lost">
+                                    <img src="" alt="">
+                                    <p class="card__lost-text">5 Min to read</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-lg subscribe d-flex flex-column align-items-center">
+                <h1 class="subscribe__title ">Never miss a drop</h1>
+                <p class="subscribe__text ">Subscribe for the latest news, drops & collectibles</p>
+                <div class="form d-flex align-items-center justify-content-between">
+                    <form>
+                        <label for="text">
+                            <input type="text" name="text" placeholder="Enter your email address ">
+                        </label>
+                    </form>
+                    <div class="subscribe__btn">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer container-lg">
+            <div class="footer__top d-flex justify-content-between">
+                <div class="footer__inner">
+                    <h4 class="footer__title mb-4">
+                        Company
+                    </h4>
+                    <ul class="d-flex flex-column gap-4">
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Terms of use</a></li>
+                        <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer__link">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer__inner">
+                    <h4 class="footer__title mb-4">
+                        Businesses
+                    </h4>
+                    <ul class="d-flex flex-column gap-4">
+                        <li><a href="#" class="footer__link">Prime</a></li>
+                        <li><a href="#" class="footer__link">Custody</a></li>
+                        <li><a href="#" class="footer__link">Asset Hub</a></li>
+                        <li><a href="#" class="footer__link">Commerce</a></li>
+                    </ul>
+                </div>
+                <div class="footer__inner">
+                    <h4 class="footer__title mb-4">
+                        Exchange
+                    </h4>
+                    <ul class="d-flex flex-column gap-4">
+                        <li><a href="#" class="footer__link">Exchange Home</a></li>
+                        <li><a href="#" class="footer__link">Margin Trading</a></li>
+                        <li><a href="#" class="footer__link">Derivatives Trading</a></li>
+                        <li><a href="#" class="footer__link">Trading Arena</a></li>
+                    </ul>
+                </div>
+                <div class="footer__inner">
+                    <h4 class="footer__title mb-4">
+                        Blockchain
+                    </h4>
+                    <ul class="d-flex flex-column gap-4">
+                        <li><a href="#" class="footer__link">Chain Explorer</a></li>
+                        <li><a href="#" class="footer__link">The Syndicate</a></li>
+                        <li><a href="#" class="footer__link">Security</a></li>
+                        <li><a href="#" class="footer__link">Cryptous Credit</a></li>
+                    </ul>
+                </div>
+                <div class="footer__inner">
+                    <h4 class="footer__title mb-4">
+                        Resources
+                    </h4>
+                    <ul class="d-flex flex-column gap-4">
+                        <li><a href="#" class="footer__link">Prices</a></li>
+                        <li><a href="#" class="footer__link">Site Widgets</a></li>
+                        <li><a href="#" class="footer__link">Tax</a></li>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Research</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom d-flex align-items-center justify-content-between">
+                <p class="footer__text">Copyright 2021, Cryptous</p>
+                <div class="footer__social d-flex gap-3 ">
+                    <img src="./images/facebook.svg" alt="facebook">
+                    <img src="./images/twitter.svg" alt="twitter">
+                    <img src="./images/in.svg" alt="in">
+                    <img src="./images/instagram.svg" alt="instagram">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
